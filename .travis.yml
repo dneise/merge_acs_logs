@@ -17,9 +17,9 @@ deploy:
   - provider: pypi
     distributions: sdist
     skip_existing: true
-    user: dneise
+    user: "__token__"
     password:
-      secure:
+      secure: IdrB/AzIApux9t8rtww6bhYqusYqWSutICYXClu7lvowIbPMGmjOP9q3P+CnVidSbQ+zBApp8Ws/RW3vjTBAG1Pe6fUKrFvwLcDBXOtSJXZb6rkPiL/eJvsaR/1KnUyan46VyXXu/4zFIZyK1g6k5hqDASqEVWezevqui5smJ64z7bbPSaA6X0cZXONap8uL4ipAW6wE3X5SrhfyufCKM7DRaVesHxghW0/8gc6r4hLNHqUOEa3blR9fpm0Y6qsXl6q5LT6GPT55CuTxkEh4AXD39GBPYgqA1F5yjwqJiFLdgrYXMscTyEZMOFp5COh28hPn8iuyjiAqBgLncj0jrkSTwfASBCh9bfVx4HnUGf7eR8So55LuN1nIsdMHgvzlve3oCWFsRHdW03zTqWpBtFmVjBRyjMKL8zrzxBV/2VosAR6aQDvG7Lp2hZVct79HE3BCDkV8/drTZvQXo1gYykB6k7ToCG82vOx5Xpn6a9Es4EomK6/MlEn+eKqYIQ073mhGtBrF9ooOEjtxfAuNAzyZsI1kOxVfDdWZC/b4yEnmxCeMURcVD/XkTenhK1wWOBBY7Kw3ATy8qp8l+bXvvBVx+EBB4ksMXIrdbXasiH4ee3GPdfixesduhcohIzmPOuP4eI8FoDAepnbCqLm8cPuZMOtlIYXfxdGzq/rugJk=
     on:
       branch: main
       tags: true
