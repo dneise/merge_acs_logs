@@ -48,7 +48,6 @@ def parse_file_into_chunks(path):
 
 def main():
     arguments = docopt(__doc__)
-    print(arguments)
 
     paths = arguments["INPUT"]
 
