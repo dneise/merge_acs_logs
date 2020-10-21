@@ -18,5 +18,5 @@ deploy:
     password:
       secure:
     on:
-      branch: master
+      branch: main
       tags: true
