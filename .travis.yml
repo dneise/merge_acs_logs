@@ -1,0 +1,22 @@
+
+language: python
+
+matrix:
+  include:
+    - os: linux
+      python: "3.6"
+
+
+install:
+  - pip install .
+
+deploy:
+  - provider: pypi
+    distributions: sdist
+    skip_existing: true
+    user: dneise
+    password:
+      secure:
+    on:
+      branch: master
+      tags: true
