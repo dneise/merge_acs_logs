@@ -10,6 +10,9 @@ matrix:
 install:
   - pip install .
 
+script:
+  - merge_acs_logs --help
+
 deploy:
   - provider: pypi
     distributions: sdist
